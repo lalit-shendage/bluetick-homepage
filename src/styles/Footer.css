@@ -1,0 +1,101 @@
+/* Footer.css */
+
+.footer {
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+
+.containerFooter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.social-media {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-basis: calc(50% - 20px);
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.social-media li {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: auto;
+}
+.infoSection {
+  display: flex;
+}
+.products {
+  margin: 0rem 2rem;
+}
+
+.footer-left {
+  max-width: 30%;
+  margin: 1rem 0rem;
+}
+.C-logo {
+  max-width: 100%;
+}
+
+.footer-right {
+  margin-left: 4rem;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+}
+.R-logo {
+  max-width: 45%;
+  max-height: 6rem;
+}
+
+.email {
+  margin: 2rem;
+}
+
+.products-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
+}
+
+.products-list li {
+  margin-right: 1rem;
+  margin-right: 20px;
+  position: relative;
+}
+
+.products-list li::before {
+  margin-left: 1.5rem;
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #000000;
+  position: absolute;
+  left: -20px;
+  top: calc(50% - 5px);
+}
+
+.products-list li a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  margin-left: 3rem;
+}

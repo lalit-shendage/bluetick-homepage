@@ -1,0 +1,42 @@
+h2{
+    margin-top: 2rem;
+    text-align: center;
+}
+.perk {
+  display: flex;
+  align-items: center;
+  margin: 5rem 3rem;
+  transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.perk:hover {
+  transform: scale(1.05); 
+  opacity: 0.9; 
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); 
+}
+  
+  .perk-image {
+    width: 30%;
+    margin: 0px 4rem; 
+    border-radius: 2rem;
+    min-width: 200px;
+    border: 1px solid #808080;
+  }
+  
+  .perk-content {
+    margin-left: 4rem;
+    flex: 1; 
+  }
+  
+  .even {
+    flex-direction: row-reverse;
+    background-color: rgb(248, 251, 254);
+    padding: 10px;
+  }
+  
+  .odd {
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  
