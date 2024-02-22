@@ -1,9 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Steps to run this application in local machine
 
-Currently, two official plugins are available:
+1. Download the repository from 'https://github.com/lalit-shendage/bluetick-homepage'
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# bluetick-homepage
+2. Opne the repository and open terminal 
+
+3. Run npm install command in terminal
+
+4. Run npm run dev to run application.
